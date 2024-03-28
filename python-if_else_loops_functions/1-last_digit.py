@@ -5,6 +5,7 @@ number = random.randint(-10000, 10000)
 
 if  type(number) is not int:
     print("TypeError")
+    break
 
 last_number =np.sign(number) * int(str(number)[-1])
 if last_number > 5:
