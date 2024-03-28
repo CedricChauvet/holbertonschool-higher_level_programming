@@ -10,4 +10,4 @@ if int(last_number) == 0:
     is_0 = "and is 0"
 else:
     is_0 = "and not 0"
-print("Last digit", last_number, than, is_0)
+print("Last digit of", number, "is", last_number, than, is_0)
