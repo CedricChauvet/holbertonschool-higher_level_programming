@@ -3,8 +3,8 @@ import numpy as np
 import random
 number = random.randint(-10000, 10000)
 
-if not number.isdigit():
-    return "TypeError"
+if  type(number) is not int:
+    print("TypeError")
 
 last_number =np.sign(number) * int(str(number)[-1])
 if last_number > 5:
