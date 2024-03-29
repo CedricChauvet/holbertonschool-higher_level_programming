@@ -2,6 +2,8 @@
 """
 descrition de la classe 1
 """
+
+
 class Square:
     """ Classe Square """
     def __init__(self, size):
