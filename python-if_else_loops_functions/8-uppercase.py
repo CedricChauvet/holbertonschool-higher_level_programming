@@ -5,4 +5,5 @@ def uppercase(Fring:str):
         if ord(u) < 123 and ord(u) >= 97:
             print("{}".format(chr(ord(u)-32)), end="")
         else:
-            print(u)            
+            print(u, end="")            
+
