@@ -37,11 +37,12 @@ class Square:
             print()
         for i in range(self.__size + self.position[1]):
             if i < self.position[1]:
-                print(" ", end="")
+                #print(" ", end="")
+                pass
             else:
                 for j in range(self.__size + self.position[0]):
                     if j < self.position[0]:
-                        print("_", end="")
+                        print(" ", end="")
                     else:
                         print("#", end="")
             print()
