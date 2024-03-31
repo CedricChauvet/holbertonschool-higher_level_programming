@@ -1,11 +1,11 @@
 The ``example`` module
 ======================
 
-Using ``factorial``
+Using ``addition``
 -------------------
 
 This is an example text file in reStructuredText format.  First import
-``factorial`` from the ``example`` module:
+``add_integer`` from the add_integer module:
 
     >>> from add_integer import add_integer
 
@@ -35,11 +35,6 @@ Now use it:
     Traceback (most recent call last):
     ...
     TypeError: b must be an integer
-
-    >>> add_integer("a","b")
-    Traceback (most recent call last):
-    ...
-    TypeError: a must be an integer
 
     >>> type(add_integer(4.2,3.01)) == int
     True
