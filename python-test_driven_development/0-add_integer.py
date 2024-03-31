@@ -1,6 +1,14 @@
 #!/usr/bin/python3
 """
-descrition du modume d'addition
+descrition du module d'addition
+
+    >>> add_integer(6,1)
+    7
+    
+    >>> add_integer(6,3.1)
+    9
+
+
 """
 
 
@@ -11,7 +19,7 @@ def add_integer(a: int, b=98):
     if type(a) not in [int, float]:
         raise TypeError("a must be an integer")
 
-    elif type(b) not in [int, float]:
+    if type(b) not in [int, float]:
         raise TypeError("b must be an integer")
 
     if type(a) is float:
