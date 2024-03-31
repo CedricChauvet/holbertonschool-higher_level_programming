@@ -40,3 +40,6 @@ Now use it:
     Traceback (most recent call last):
     ...
     TypeError: a must be an integer
+
+    >>> type(add_integer(4.2,3.01)) == int
+    True
