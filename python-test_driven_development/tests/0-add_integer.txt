@@ -13,4 +13,6 @@ Now use it:
 
     >>> add_integer(6,2)
     8
-    >>>add_integer("a",2)
+    
+    >>>add_integer(1.4,2)
+    3
