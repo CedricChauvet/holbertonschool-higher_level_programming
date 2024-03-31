@@ -1,1 +1,15 @@
-""" ceci est un texte"""
+The ``example`` module
+======================
+
+Using ``factorial``
+-------------------
+
+This is an example text file in reStructuredText format.  First import
+``factorial`` from the ``example`` module:
+
+    >>> from add_integer import add_integer
+
+Now use it:
+
+    >>> add_integer(6,2)
+    8
