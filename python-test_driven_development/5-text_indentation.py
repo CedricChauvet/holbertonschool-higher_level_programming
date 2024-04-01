@@ -9,7 +9,7 @@ def text_indentation(text):
     fonction numéro 5
     """
     charline = ""
-    trig = 2
+    trig = 0
     if type(text) is not str:
         raise TypeError("text must be a string")
     
