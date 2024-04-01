@@ -21,11 +21,6 @@ def matrix_divided(matrix, div):
             pass
         else:
             raise TypeError("Each row of the matrix must have the same size") 
-    
-    
-    
-    
-    
     matrixdiv = []
     for i in range(indexcol):
         matrixdiv.append([])
