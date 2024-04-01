@@ -17,3 +17,7 @@ Now use it:
 ####
 ####
 ####
+
+>>> print_square("a")
+Traceback (most recent call last):
+TypeError:size must be an integer
