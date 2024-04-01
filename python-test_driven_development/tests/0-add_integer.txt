@@ -24,6 +24,11 @@ Examples
 >>> add_integer(6,3.1)
 9
     
+
+>>> add_integer(2)
+100
+
+
 >>> add_integer(2.7)
 100
 
