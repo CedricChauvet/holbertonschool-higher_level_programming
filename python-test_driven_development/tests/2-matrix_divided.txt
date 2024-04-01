@@ -1,0 +1,16 @@
+The ``matrix_divided`` module
+======================
+
+Using ``division``
+-------------------
+
+This is an example text file in reStructuredText format.  First import
+``add_integer`` from the add_integer module:
+
+    
+
+Now use it:
+
+>>> add_integer = __import__('2-matrix_divided').matrix_divided
+
+
