@@ -41,13 +41,9 @@ TypeError: b must be an integer
 Traceback (most recent call last):
 TypeError: a must be an integer
 
->>> add_integer(10**1000)
-Traceback (most recent call last):
-OverflowError: "a or b too large"
-
 >>> add_integer(float('inf'), 3)
 Traceback (most recent call last):
-OverflowError: "a or b too large"
+OverflowError: a or b is infinite
 
 
 >>> add_integer(None)

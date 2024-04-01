@@ -16,7 +16,7 @@ def add_integer(a: int, b=98):
         raise TypeError("b must be an integer")
 
     if a == float('inf') or b == float('inf'):
-        raise OverflowError("a or b too large")
+        raise OverflowError("a or b is infinite")
 
     if type(a) is float:
         a = int(a)
