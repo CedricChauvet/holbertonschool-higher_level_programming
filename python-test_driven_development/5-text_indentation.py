@@ -23,6 +23,7 @@ def text_indentation(text):
             if trig >0 and char == " ":
                 trig = trig - 1
             else:
+                trig = trig - 1
                 charline += char    
     print(charline,end="")
     
