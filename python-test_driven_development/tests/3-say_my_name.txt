@@ -1,0 +1,18 @@
+The ``matrix_divided`` module
+======================
+
+Using ``division``
+-------------------
+
+This is an example text file in reStructuredText format.  First import
+``add_integer`` from the add_integer module:
+
+    
+
+Now use it:
+
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+>>> say_my_name("Cédric", "Chauvet")
+My name is Cédric Chauvet
+
