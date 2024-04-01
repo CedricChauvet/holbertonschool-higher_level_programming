@@ -1,0 +1,13 @@
+The ``print square`` module
+======================
+
+Using ``print``
+-------------------
+
+This is an example to test different squares
+
+    
+
+Now use it:
+
+>>> print_square = __import__('4-print_square').print_square
