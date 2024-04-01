@@ -18,9 +18,9 @@ def text_indentation(text):
         if char in [".","?",":"]:
             charline += char 
             charline+="\n\n"
-            trig=2
+            trig=1
         else:
-            if trig >0 and char == " ":
+            if trig > 0 and char == " ":
                 trig = trig - 1
             else:
                 trig = trig - 1
