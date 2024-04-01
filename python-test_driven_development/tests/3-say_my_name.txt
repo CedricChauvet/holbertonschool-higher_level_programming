@@ -17,7 +17,9 @@ Now use it:
 My name is Cédric Chauvet
 
 >>> say_my_name("Cédric",39)
-first_name must be a string
+Traceback (most recent call last):
+Exception: last_name must be a string
 
->>> say_my_name(39, "Chauvet)
-last_name must be a string
+>>> say_my_name(39, "Chauvet")
+Traceback (most recent call last):
+Exception: first_name must be a string
