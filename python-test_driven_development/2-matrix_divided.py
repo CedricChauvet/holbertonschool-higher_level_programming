@@ -28,15 +28,11 @@ def matrix_divided(matrix, div):
     matrixdiv = []
     for i in range(indexcol):
         matrixdiv.append([])
-        for j in range(indexcol):
+        for j in range(indexrow):
             # check si tout les elements sont des int ou des floats
             if type(matrix[i][j]) not in [int, float]:
                 raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
             # effectue la division
             matrixdiv[i].append(round(matrix[i][j]/div, 2))
-    
-    
-    
-    
     
     return matrixdiv
