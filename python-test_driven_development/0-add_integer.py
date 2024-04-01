@@ -2,13 +2,6 @@
 """
 descrition du module d'addition
 
-    >>> add_integer(6,1)
-    7
-    
-    >>> add_integer(6,3.1)
-    9
-
-
 """
 
 
@@ -21,6 +14,9 @@ def add_integer(a: int, b=98):
 
     if type(b) not in [int, float]:
         raise TypeError("b must be an integer")
+
+    if a == float('inf') or b == float('inf'):
+        raise OverflowError("a or b too large")
 
     if type(a) is float:
         a = int(a)
