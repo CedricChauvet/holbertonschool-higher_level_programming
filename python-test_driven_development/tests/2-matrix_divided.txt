@@ -11,6 +11,9 @@ This is an example text file in reStructuredText format.  First import
 
 Now use it:
 
->>> add_integer = __import__('2-matrix_divided').matrix_divided
+>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
 
 
+>>>matrix_divided
+[[0.33, 0.67], [1.33, 1.67]]
+[[1, 2, 3], [4, 5, 6]]
