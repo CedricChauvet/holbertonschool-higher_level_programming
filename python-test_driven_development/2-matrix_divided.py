@@ -24,16 +24,16 @@ def matrix_divided(matrix, div):
         if len(matrix[i]) == len(matrix[0]):
             pass
         else:
-            raise TypeError("Each row of the matrix must have" + \
-            " the same size")
+            raise TypeError("Each row of the matrix must have" +
+                            " the same size")
     matrixdiv = []
     for i in range(indexcol):
         matrixdiv.append([])
         for j in range(indexrow):
             # check si tout les elements sont des int ou des floats
             if type(matrix[i][j]) not in [int, float]:
-                raise TypeError("matrix must be a matrix " + \
-                "(list of lists) of integers/floats")
+                raise TypeError("matrix must be a matrix " +
+                                "(list of lists) of integers/floats")
             # effectue la division
             matrixdiv[i].append(round(matrix[i][j]/div, 2))
 
