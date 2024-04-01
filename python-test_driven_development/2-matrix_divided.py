@@ -15,9 +15,25 @@ def matrix_divided(matrix, div):
     """
     indexcol = len(matrix)
     indexrow = len(matrix[0])
+    
+    for i in range(indexrow):
+        if len(matrix[i]) == len(matrix[0]):
+            pass
+        else:
+            raise TypeError("Each row of the matrix must have the same size") 
+    
+    
+    
+    
+    
     matrixdiv = []
     for i in range(indexcol):
         matrixdiv.append([])
         for j in range(indexcol):
             matrixdiv[i].append(round(matrix[i][j]/div, 2))
+    
+    
+    
+    
+    
     return matrixdiv
