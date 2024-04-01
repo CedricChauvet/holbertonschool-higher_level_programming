@@ -16,12 +16,12 @@ def text_indentation(text):
     
     for char in list(text):
         if char in [".","?",":"]:
-            charline+="\n\n"
+            charline+="\n"
             trig=2
         else:
-            if trig >0:
+            if trig >0 and char == " ":
                 trig = trig - 1
             else:
                 charline += char    
-    print(charline)
+    print(charline,end="")
     
