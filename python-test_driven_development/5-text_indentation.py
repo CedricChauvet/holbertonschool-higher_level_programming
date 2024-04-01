@@ -16,6 +16,7 @@ def text_indentation(text):
     
     for char in list(text):
         if char in [".","?",":"]:
+            charline += char 
             charline+="\n\n"
             trig=2
         else:
