@@ -16,6 +16,10 @@ def matrix_divided(matrix, div):
     indexcol = len(matrix)
     indexrow = len(matrix[0])
     
+    #check le diviseur est un scalaire
+    if type(div) not in [int, float]:
+        raise TypeError("div must be a number")
+    
     for i in range(indexcol):
         if len(matrix[i]) == len(matrix[0]):
             pass
