@@ -13,17 +13,10 @@ def text_indentation(text):
     if type(text) is not str:
         raise TypeError("text must be a string")
     
-    
-    for char in list(text):
-        if char in [".","?",":"]:
-            charline += char 
-            charline+="\n\n"
-            trig=1
-        else:
-            if trig > 0 and char == " ":
-                trig = trig - 1
-            else:
-                trig = trig - 1
-                charline += char    
-    print(charline,end="")
-    
+    new_text = text.replace(". ",".")
+    new_text = new_text.replace(": ",":")
+    new_text = new_text.replace("? ","?")
+    new_text = new_text.replace(".",".\n\n")
+    new_text = new_text.replace(":",":\n\n")
+    new_text = new_text.replace("?","?\n\n")
+    print(new_text)
