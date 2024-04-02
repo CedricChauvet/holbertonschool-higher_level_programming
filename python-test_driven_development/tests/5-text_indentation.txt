@@ -1,0 +1,25 @@
+The ``print identatoin`` module
+======================
+
+Using ``text inddentatoin`
+-------------------
+
+This is an example to test indentation
+
+    
+
+Now use it:
+
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+>>>text_indentation("Holberton School")
+Holberton School
+
+>>>text_indentation("Holberton School. Rentree en bridge")
+Holberton School.
+
+Rentree en bridge
+
+>>>text_indentation()
+Traceback (most recent call last):
+TypeError: text_indentation() missing 1 required positional argument: 'text'
