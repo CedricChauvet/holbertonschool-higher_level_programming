@@ -12,11 +12,11 @@ def text_indentation(text):
     trig = 0
     if type(text) is not str:
         raise TypeError("text must be a string")
-    
-    new_text = text.replace(". ",".")
-    new_text = new_text.replace(": ",":")
-    new_text = new_text.replace("? ","?")
-    new_text = new_text.replace(".",".\n\n")
-    new_text = new_text.replace(":",":\n\n")
-    new_text = new_text.replace("?","?\n\n")
-    print(new_text,end="")
+
+    new_text = text.replace(". ", ".")
+    new_text = new_text.replace(": ", ":")
+    new_text = new_text.replace("? ", "?")
+    new_text = new_text.replace(".", ".\n\n")
+    new_text = new_text.replace(":", ":\n\n")
+    new_text = new_text.replace("?", "?\n\n")
+    print(new_text, end="")
