@@ -1,3 +1,3 @@
 -- premiere commande
 -- liste toutes les bases de données
-CREATE DATABASE hbtn_0c_0;
+CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
