@@ -17,6 +17,6 @@ request('https://swapi-api.hbtn.io/api/films/' + movie, function (error, respons
     //console.error('error:', error); // Print the error if one occurred
     //console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
     //stringify(body); // Print the HTML for the Google homepage.
-    var titles = JSON.parse(body);
+    titles = JSON.parse(body);
     process.stdout.write(titles.title + '\n');
 });
