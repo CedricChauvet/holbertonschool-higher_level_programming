@@ -16,5 +16,6 @@ const URL = process.argv[2];
 
 const request = require('request');
 request(URL, function (error, response, body) {
-  console.log('Code:', response && response.statusCode); // Print the response status code if a response was received
+  //console.log('Code:', response && response.statusCode); // Print the response status code if a response was received
+  process.stdout.write("Code: " + Number(response && response.statusCode));
 });
